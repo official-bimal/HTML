@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<!-- semantic tag is used for clarify and seo -->
+<body>
+       <!-- Practice Qn 1 -->
+       <h2>Practice Qn 1</h2>
+
+    <table border="black">
+        <caption>A test table with merged cells</caption> 
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+           </tr>
+           <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+           </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <!-- form  -->
+    <!-- for in level tag and id for input tag  -->
+
+           <!-- Practice Qn 2 -->
+            <h2>Practice Qn 2</h2>
+   <form action="https://www.google.com/search?" target="_blank">
+    <input type="search" placeholder="search for google" name="q"> 
+
+    <button>Search</button>
+   </form>
+   <hr>
+    <!-- Practice Qn 3 -->
+    <h2>Practice Qn 3</h2>
+    <form action="submit">
+        <h2>Registration form</h2>
+        <div><input type="text" name="first Name" placeholder="first name">
+        <input type="text" name="last name" placeholder="last name">
+    </div>
+    <div>
+        <label for="gender">Please select your gender</label>
+        <select name="Gender" id="gender">
+            <option value="Male" >Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other </option>
+        </select>
+    </div>
+    <div>
+    <label for="term">Do you agree all term & condition ? </label>
+    <input type="checkbox" name="Term and condition " id="term"> 
+   
+    <label for="term"> Yes i agree </label>
+</div>
+    <button>Register</button>
+
+    </form>
+</body>
+</html>

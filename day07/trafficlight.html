@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic light</title>
+</head>
+<style>
+    .main{
+        width: 100px;
+        height: 400px;
+        background-color: wheat;
+        padding: 30px;
+        padding-right: 40px;
+        border: 3px solid black;
+    }
+    #tf{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .child1{
+       background-color: red;
+    }
+    .child2{
+       background-color: yellow
+    }
+    .child3{
+       background-color: green;
+    }
+</style>
+<body>
+    <h1>Traffic light</h1>
+    <div class="main">
+        <div id="tf" class="child1"></div>
+        <div id="tf" class="child2"></div>
+        <div id="tf" class="child3"></div>
+    </div>
+</body>
+</html>
